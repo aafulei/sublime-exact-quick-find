@@ -1,0 +1,71 @@
+{
+    // Set the case sensitive flag or not on start
+    "default_case_sensitive": true,
+
+    // Set the whole word flag or not on start
+    "default_whole_word": true,
+
+    // Set the wrap scan flag or not on start. With this flag on, search will
+    // go back to the beginning after it reaches the end.
+    "default_wrap_scan": true,
+
+    // If set to true, on any file save, the current flag values will be
+    // saved to
+    //  1. "default_case_sensitive"
+    //  2. "default_whole_word"
+    //  3. "default_wrap_scan"
+    "save_flags_on_save": true,
+
+    // If set to true, running "Flip Find Flags" command will toggle the case
+    // sensitive flag
+    "flip_case_sensitive": true,
+
+    // If set to true, running "Flip Find Flags" command will toggle the whole
+    // word flag
+    "flip_whole_word": true,
+
+    // If set to true, running "Flip Find Flags" command will toggle the wrap
+    // scan flag
+    "flip_wrap_scan": true,
+
+    // Letter for the wrap scan flag, e.g. setting to "X" will show [C][W][X]
+    "wrap_scan_flag_char": "R",
+
+    // Position of the wrap scan flag among 3 find flags. Valid values are 1,
+    // 2, or 3. For example, setting to 1 will show [X][C][W], given that "X"
+    // is used to represent the wrap scan flag.
+    "wrap_scan_flag_position": 3,
+
+    // If set to false, flags that are turned off will have a "~" in front of
+    // them, e.g. [~c][~w][~r]. This adds to the visual distinction.
+    "show_tilde": false,
+
+    // --------------------------------
+    // Display Format of the Status Bar
+    // --------------------------------
+    // "Alert ! Flags @ Ruler : Notice"
+    //
+    // For example, "No Other Matches ! [C][W][R] @ Region 1/1 : Move"
+    //
+    // Flags and ruler are always shown. Alerts and notices can be turned off.
+
+    // Show alert or not in status bar. Alerts are shown when users take
+    // unexpected actions. Alert example: "No Other Matches".
+    "show_alert": true,
+
+    // Show notice or not in status bar. Notices are simple descriptions of
+    // the last command. Notice examples: "Move" / "Add" / "Peek".
+    "show_notice": true,
+
+    // Indicator style for the current region. Valid values are "icon",
+    // "superimpose" or "none". Option "icon" is recommended. Use "superimpose"
+    // if you find gutter icons distracting. Use "none" if you don't want any
+    // indicators. But you might need to look at the status bar for some
+    // information.
+    "indicator": "icon",
+
+    // For debug use
+    "debug": false,
+    "debug_watchlist": [],
+    "debug_blocklist": [],
+}

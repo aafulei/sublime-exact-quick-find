@@ -1,0 +1,28 @@
+[
+    // Basic Commands
+
+    // { "keys": ["primary+e"], "command": "exact_quick_find_goto_next" },
+    // { "keys": ["primary+b"], "command": "exact_quick_find_goto_prev" },
+    // { "keys": ["primary+shift+e"], "command": "exact_quick_find_goto_prev" },
+    // { "keys": ["primary+d"], "command": "exact_quick_find_add_next" },
+    // { "keys": ["primary+shift+b"], "command": "exact_quick_find_add_prev" },
+    // { "keys": ["primary+alt+d"], "command": "exact_quick_find_add_all" },
+    // { "keys": ["alt+c"], "command": "exact_quick_find_toggle_case_sensitive" },
+    // { "keys": ["alt+w"], "command": "exact_quick_find_toggle_whole_word" },
+    // { "keys": ["alt+r"], "command": "exact_quick_find_toggle_wrap_scan" },
+    // { "keys": ["alt+f"], "command": "exact_quick_find_flip_find_flags" },
+
+    // Advanced Commands
+
+    // { "keys": ["primary+g"], "command": "exact_quick_find_peek_next" },
+    // { "keys": ["primary+shift+g"], "command": "exact_quick_find_peek_prev" },
+    // { "keys": ["primary+h"], "command": "exact_quick_find_peek_next_selected" },
+    // { "keys": ["primary+shift+h"], "command": "exact_quick_find_peek_prev_selected" },
+    // { "keys": ["primary+6"], "command": "exact_quick_find_add_this" },
+    // { "keys": ["primary+shift+6"], "command": "exact_quick_find_subtract_this" },
+    // { "keys": ["primary+7"], "command": "exact_quick_find_single_select_this" },
+    // { "keys": ["primary+shift+7"], "command": "exact_quick_find_invert_select_this" },
+    // { "keys": ["primary+5"], "command": "exact_quick_find_go_first" },
+    // { "keys": ["primary+shift+5"], "command": "exact_quick_find_go_last" },
+    // { "keys": ["primary+8"], "command": "exact_quick_find_go_back" },
+]

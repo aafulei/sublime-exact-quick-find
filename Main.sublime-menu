@@ -1,0 +1,153 @@
+[
+    {
+        "id": "find",
+        "children":
+        [
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Exact Quick Find",
+                "command": "exact_quick_find",
+                "children": [
+                    {
+                        "command": "exact_quick_find_goto_next",
+                        "caption": "Goto Next"
+                    },
+                    {
+                        "command": "exact_quick_find_goto_prev",
+                        "caption": "Goto Prev"
+                    },
+                    {
+                        "command": "exact_quick_find_add_next",
+                        "caption": "Add Next"
+                    },
+                    {
+                        "command": "exact_quick_find_add_prev",
+                        "caption": "Add Prev"
+                    },
+                    {
+                        "command": "exact_quick_find_add_all",
+                        "caption": "Add All"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "exact_quick_find_peek_next",
+                        "caption": "Peek Next"
+                    },
+                    {
+                        "command": "exact_quick_find_peek_prev",
+                        "caption": "Peek Prev"
+                    },
+                    {
+                        "command": "exact_quick_find_peek_next_selected",
+                        "caption": "Peek Next Selected"
+                    },
+                    {
+                        "command": "exact_quick_find_peek_prev_selected",
+                        "caption": "Peek Prev Selected"
+                    },
+                    {
+                        "command": "exact_quick_find_add_this",
+                        "caption": "Add This"
+                    },
+                    {
+                        "command": "exact_quick_find_subtract_this",
+                        "caption": "Subtract This"
+                    },
+                    {
+                        "command": "exact_quick_find_single_select_this",
+                        "caption": "Single Select This"
+                    },
+                    {
+                        "command": "exact_quick_find_invert_select_this",
+                        "caption": "Invert Select This"
+                    },
+                    {
+                        "command": "exact_quick_find_go_first",
+                        "caption": "Go First"
+                    },
+                    {
+                        "command": "exact_quick_find_go_last",
+                        "caption": "Go Last"
+                    },
+                    {
+                        "command": "exact_quick_find_go_back",
+                        "caption": "Go Back"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "command": "exact_quick_find_toggle_case_sensitive",
+                        "caption": "Toggle Case Sensitive"
+                    },
+                    {
+                        "command": "exact_quick_find_toggle_whole_word",
+                        "caption": "Toggle Whole Word"
+                    },
+                    {
+                        "command": "exact_quick_find_toggle_wrap_scan",
+                        "caption": "Toggle Wrap Scan"
+                    },
+                    {
+                        "command": "exact_quick_find_flip_find_flags",
+                        "caption": "Flip Find Flags"
+                    }
+                ]
+            },
+            {
+                "caption": "-"
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                // include this information in case it is the only package
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Exact Quick Find",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Exact Quick Find/Exact Quick Find.sublime-settings",
+                                    "user_file": "${packages}/User/Exact Quick Find.sublime-settings",
+                                    "default": "[\n\t$0\n]\n",
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Exact Quick Find/Default ($platform).sublime-keymap",
+                                    "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+                                    "default": "[\n\t$0\n]\n",
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Exact Quick Find/messages/install.txt"
+                                }
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

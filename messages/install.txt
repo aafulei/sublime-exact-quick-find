@@ -1,0 +1,82 @@
+Exact Quick Find
+================
+Quick-find aware of case-sensitive / whole-word / wrap-scan flags.
+
+How to Use
+----------
+1.  Key Bindings
+
+    No default key bindings. Define your own. For recommended key bindings,
+    open
+
+    Preferences > Package Settings > Exact Quick Find > Key Bindings
+
+    or enter in the command palette
+
+    Preferences: Exact Quick Find Key Bindings
+
+2.  Main Menu
+
+    Find > Exact Quick Find > Goto Next
+    Find > Exact Quick Find > Goto Prev
+    Find > Exact Quick Find > Add Next
+    Find > Exact Quick Find > Add Prev
+    Find > Exact Quick Find > Add All
+    Find > Exact Quick Find > Peek Next
+    Find > Exact Quick Find > Peek Prev
+    Find > Exact Quick Find > Peek Next Selected
+    Find > Exact Quick Find > Peek Prev Selected
+    Find > Exact Quick Find > Add This
+    Find > Exact Quick Find > Subtract This
+    Find > Exact Quick Find > Single Select This
+    Find > Exact Quick Find > Go First
+    Find > Exact Quick Find > Go Last
+    Find > Exact Quick Find > Go Back
+    Find > Exact Quick Find > Toggle Case Sensitive
+    Find > Exact Quick Find > Toggle Whole Word
+    Find > Exact Quick Find > Toggle Wrap Scan
+    Find > Exact Quick Find > Flip Find Flags
+
+3.  Command Palette
+
+    Exact Quick Find: Goto Next
+    Exact Quick Find: Goto Prev
+    Exact Quick Find: Add Next
+    Exact Quick Find: Add Prev
+    Exact Quick Find: Add All
+    Exact Quick Find: Peek Next
+    Exact Quick Find: Peek Prev
+    Exact Quick Find: Peek Next Selected
+    Exact Quick Find: Peek Prev Selected
+    Exact Quick Find: Add This
+    Exact Quick Find: Subtract This
+    Exact Quick Find: Single Select This
+    Exact Quick Find: Go First
+    Exact Quick Find: Go Last
+    Exact Quick Find: Go Back
+    Exact Quick Find: Toggle Case Sensitive
+    Exact Quick Find: Toggle Whole Word
+    Exact Quick Find: Toggle Wrap Scan
+    Exact Quick Find: Flip Find Flags
+
+    Hint: enter "eqf" in the command palette and all the commands will show up.
+
+Settings
+--------
+Preferences > Package Settings > Exact Quick Find > Settings
+
+or enter in the command palette
+
+Preferences: Exact Quick Find Settings
+
+More
+----
+https://github.com/aafulei/sublime-exact-quick-find
+
+Author
+------
+Aaron Fu Lei
+
+License
+-------
+MIT

@@ -1,0 +1,100 @@
+[
+    {
+        "caption": "Exact Quick Find: Goto Next",
+        "command": "exact_quick_find_goto_next"
+    },
+    {
+        "caption": "Exact Quick Find: Goto Prev",
+        "command": "exact_quick_find_goto_prev"
+    },
+    {
+        "caption": "Exact Quick Find: Add Next",
+        "command": "exact_quick_find_add_next"
+    },
+    {
+        "caption": "Exact Quick Find: Add Prev",
+        "command": "exact_quick_find_add_prev"
+    },
+    {
+        "caption": "Exact Quick Find: Add All",
+        "command": "exact_quick_find_add_all"
+    },
+    {
+        "caption": "Exact Quick Find: Peek Next",
+        "command": "exact_quick_find_peek_next"
+    },
+    {
+        "caption": "Exact Quick Find: Peek Prev",
+        "command": "exact_quick_find_peek_prev"
+    },
+    {
+        "caption": "Exact Quick Find: Peek Next Selected",
+        "command": "exact_quick_find_peek_next_selected"
+    },
+    {
+        "caption": "Exact Quick Find: Peek Prev Selected",
+        "command": "exact_quick_find_peek_prev_selected"
+    },
+    {
+        "caption": "Exact Quick Find: Add This",
+        "command": "exact_quick_find_add_this"
+    },
+    {
+        "caption": "Exact Quick Find: Subtract This",
+        "command": "exact_quick_find_subtract_this"
+    },
+    {
+        "caption": "Exact Quick Find: Single Select This",
+        "command": "exact_quick_find_single_select_this"
+    },
+    {
+        "caption": "Exact Quick Find: Invert Select This",
+        "command": "exact_quick_find_invert_select_this"
+    },
+    {
+        "caption": "Exact Quick Find: Go First",
+        "command": "exact_quick_find_go_first"
+    },
+    {
+        "caption": "Exact Quick Find: Go Last",
+        "command": "exact_quick_find_go_last"
+    },
+    {
+        "caption": "Exact Quick Find: Go Back",
+        "command": "exact_quick_find_go_back"
+    },
+    {
+        "caption": "Exact Quick Find: Toggle Case Sensitive",
+        "command": "exact_quick_find_toggle_case_sensitive"
+    },
+    {
+        "caption": "Exact Quick Find: Toggle Whole Word",
+        "command": "exact_quick_find_toggle_whole_word"
+    },
+    {
+        "caption": "Exact Quick Find: Toggle Wrap Scan",
+        "command": "exact_quick_find_toggle_wrap_scan"
+    },
+    {
+        "caption": "Exact Quick Find: Flip Find Flags",
+        "command": "exact_quick_find_flip_find_flags"
+    },
+    {
+        "caption": "Preferences: Exact Quick Find Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Exact Quick Find/Exact Quick Find.sublime-settings",
+            "user_file": "${packages}/User/Exact Quick Find.sublime-settings",
+            "default": "[\n\t$0\n]\n",
+        }
+    },
+    {
+        "caption": "Preferences: Exact Quick Find Key Bindings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/Exact Quick Find/Default ($platform).sublime-keymap",
+            "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n",
+        }
+    }
+]
