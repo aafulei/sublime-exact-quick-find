@@ -604,6 +604,18 @@ def _establish_regions(eqf):
 
 # --- init --------------------------------------------------------------------
 
+def _pattern_still_matches(eqf):
+    if not eqf.reglets:
+        return False
+    sel = eqf.view.sel()
+    if len(sel) == 0:
+        return False
+    region = sel[-1]
+    if region.empty():
+        return False
+    return eqf.view.substr(region) == eqf.text
+
+
 # return True for success, False for failure
 def _basic_init(eqf):
     def _pre_check(unwanted, msg):
@@ -621,10 +633,9 @@ def _basic_init(eqf):
         eqf.alert = msg
         _debug_print(msg, vid=eqf.vid)
         return False
-    if eqf.init == Init.EXTENDED:
-        code = eqf.code
-        _reset_eqf(eqf)
-        eqf.code = code
+    code = eqf.code
+    _reset_eqf(eqf)
+    eqf.code = code
     eqf.orig_region = region = eqf.view.sel()[-1]
     point = region.empty()
     # -1. pre-check to rule out illogical commands
@@ -1075,7 +1086,7 @@ class ExactQuickFindCommand(sublime_plugin.TextCommand):
             eqf.last_code = eqf.code
         eqf.code = code
         eqf.reverse = reverse
-        if eqf.init != Init.BASIC:
+        if eqf.init != Init.BASIC or not _pattern_still_matches(eqf):
             if not _basic_init(eqf):
                 return
         else:
