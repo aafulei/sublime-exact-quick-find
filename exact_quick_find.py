@@ -268,6 +268,8 @@ def _reglet_to_region(reglet):
 # --- debug -------------------------------------------------------------------
 
 def _debug_print(*args, vid=0, level=Level.DEBUG, frame_num=1, **kwargs):
+    if g_set is None:
+        return
     debug_level = g_set.get("debug", Def.DEBUG)
     if not debug_level:
         return
@@ -290,6 +292,8 @@ def _trace_print(*args, vid=0, **kwargs):
 
 
 def _debug_assert(expected, msg=""):
+    if g_set is None:
+        return
     debug_on = g_set.get("debug", Def.DEBUG)
     if not debug_on:
         return
