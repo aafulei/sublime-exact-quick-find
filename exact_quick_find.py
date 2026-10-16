@@ -638,8 +638,10 @@ def _basic_init(eqf):
         _debug_print(msg, vid=eqf.vid)
         return False
     code = eqf.code
+    reverse = eqf.reverse
     _reset_eqf(eqf)
     eqf.code = code
+    eqf.reverse = reverse
     eqf.orig_region = region = eqf.view.sel()[-1]
     point = region.empty()
     # -1. pre-check to rule out illogical commands
